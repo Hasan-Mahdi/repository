@@ -1,6 +1,30 @@
-<html>
-<head> </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
 <body>
-<p> this is body </p>
+    <div class="login-container">
+        <form class="login-form">
+            <h2>Welcome Back</h2>
+            <div class="input-group">
+                <input type="text" id="username" required>
+                <label for="username">Username</label>
+                <span class="bar"></span>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+                <span class="bar"></span>
+            </div>
+            <button type="submit" class="login-btn">
+                <span>Login</span>
+            </button>
+            <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+        </form>
+    </div>
 </body>
 </html>
